@@ -13,6 +13,7 @@ interface ResponseSuggestion {
   text: string;
   likes?: number;
   dislikes?: number;
+  
 }
 
 export default function ReplySuggestions() {

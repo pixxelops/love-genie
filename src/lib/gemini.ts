@@ -42,7 +42,7 @@ export async function generateResponse(
   image?: File
 ): Promise<string[]> {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-001' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.6-flash' });
 
     // Prepare the prompt based on the tonality and message
     // Prepare the prompt based on the tonality and message
